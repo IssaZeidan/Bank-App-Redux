@@ -1,12 +1,12 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom';
-import Home from './Home';
+import Main from './Components/Main';
 
 const App = () => {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-    </Routes>
+    <div className="app-container">
+      <h1>Bank App</h1>
+      <Main />
+    </div>
   );
 };
 

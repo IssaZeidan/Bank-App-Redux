@@ -1,8 +1,9 @@
+
+// Header.js
 import React from 'react';
 
-const Footer = () => {
-  const currentYear = new Date().getFullYear();
-  return <footer>&copy; {currentYear} Bank App. All rights reserved.</footer>;
+const Header = () => {
+  return <header>Bank App Header</header>;
 };
 
-export default Footer;
+export default Header;
